@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Australian Apprenticeships</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Australian Apprenticeships</h1>
+        <div class="search-container">
+            <input type="text" id="searchBox" placeholder="Search for RTOs or courses...">
+        </div>
+    </header>
+
+    <!-- Top Skills Section -->
+    <section id="top-skills" class="skills-section">
+        <h2>Top Paid Skills in Australia</h2>
+        <div class="skills-header">
+            <div class="header-labels">
+                <span>Skill</span>
+                <span>Annual Salary</span>
+                <span>Duration</span>
+                <span>Cost Range</span>
+                <span>Demand</span>
+            </div>
+        </div>
+        <div class="skills-container" id="skillsList">
+            <!-- Skills will be populated by JavaScript -->
+        </div>
+    </section>
+
+    <main>
+        <div id="rtoList" class="rto-container"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
